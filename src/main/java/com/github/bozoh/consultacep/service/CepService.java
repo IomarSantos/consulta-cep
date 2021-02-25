@@ -46,7 +46,6 @@ public class CepService {
   private Endereco toEndereco(EnderecoERP end) {
     Endereco e = new Endereco();
     e.setLogradouro(end.getEnd());
-    e.setComplemento(end.getComplemento());
     e.setComplemento2(end.getComplemento2());
     e.setBairro(end.getBairro());
     e.setCidade(end.getCidade());
